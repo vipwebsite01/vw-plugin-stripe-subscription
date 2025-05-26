@@ -1,5 +1,5 @@
 <?php
-namespace DwpStripeSubscription;
+namespace VwStripeSubscription;
 
 use Dotenv\Dotenv;
 
