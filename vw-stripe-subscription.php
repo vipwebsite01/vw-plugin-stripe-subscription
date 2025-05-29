@@ -13,7 +13,7 @@ require_once plugin_dir_path( __FILE__ ) . 'src/Plugin.php';
 
 // Aktiváláskor beállítjuk a plugin szükséges dolgait
 register_activation_hook( __FILE__, 'vw_plugin_stripe_subscription_activate' );
-function vw_stripe_subscription_activate() {
+function vw_plugin_stripe_subscription_activate() {
     // Itt helyezheted el a telepítési műveleteket, ha szükséges
 }
 
